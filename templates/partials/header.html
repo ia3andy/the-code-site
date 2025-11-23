@@ -5,32 +5,5 @@
        class="header-logo">
       {site.title.toUpperCase}
     </a>
-
-    <!-- Mobile Menu Button -->
-    <button id="mobile-menu-button" class="nav-item" aria-label="Menu">
-      <span class="icon icon--heroicons-outline icon--heroicons-outline--menu"></span>
-    </button>
-
-    {#fragment id=menu}
-    {@java.lang.String device = 'desktop'}
-    <!-- Navigation -->
-    <div class="{device == 'desktop' ? 'desktop-nav' : 'mobile-nav hidden'}">
-      <nav>
-        {#for item in site.data.navigation}
-        <a href="{site.url.resolve(item.url)}" class="nav-item">
-          {item.title}
-        </a>
-        {/for}
-      </nav>
-      <!-- Theme Toggle -->
-      <button class="nav-item theme-toggle" aria-label="Toggle theme">
-        <span class="hidden toggle-light icon icon--heroicons-outline icon--heroicons-outline--sun"></span>
-        <span class="hidden toggle-dark icon icon--heroicons-outline icon--heroicons-outline--moon"></span>
-        {#if device == 'mobile'}<span id="theme-text">LIGHT MODE</span>{/if}
-      </button>
-
-    </div>
-    {/fragment}
   </div>
-  {#include $menu device='mobile'/}
 </header>

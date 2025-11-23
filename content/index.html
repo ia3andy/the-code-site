@@ -22,15 +22,3 @@ paginate: posts
   <p>{site.data.tagline}</p>
 </div>
 
-
-<!-- Posts Section -->
-<div class="posts">
-  <h2>Blog</h2>
-  <div class="posts-wrapper">
-    {#for post in site.collections.posts.paginated(page.paginator)}
-    {#postCard post site/}
-    {/for}
-  </div>
-
-  {#include partials/posts-paginator /}
-</div>

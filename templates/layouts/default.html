@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Let's pass the page and site data to build title and seo meta (Roq built-in feature) -->
     {#seo page site /}
+
+    <!-- This will get the favicon from the site data (or automatically if found) -->
     {#favicon site/}
 
-    <!-- Theme initialization script (prevent flash) -->
+    <!-- Light/Dark Theme initialization script (prevent flash) -->
     <script>
       (function() {
         const theme = localStorage.getItem('theme') || 'light';
@@ -16,8 +20,7 @@
       })();
     </script>
 
-
-
+    <!-- This will be adding all the scripts and styles bundled from the web/ directory -->
     {#bundle /}
 </head>
 <body>
@@ -27,11 +30,7 @@
         {#insert /}
     </main>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <p>&copy; {now.format('Y')} {site.title}. All rights reserved.</p>
-        </div>
-    </footer>
+    {#include partials/footer.html /}
 
 </body>
 </html>
