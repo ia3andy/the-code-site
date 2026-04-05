@@ -1,12 +1,12 @@
 ---
-title: "Comece agora, não deixe para depois"
+title: "Comece agora, não deixe para depois!"
 escape: true
-tags: [inicio, quarkus, quarkus-openapi-generator]
+tags: [journey, beginning, quarkus, quarkus-openapi-generator, dapr, tips]
 description: "Veja como cheguei até aqui e quais são os meus medos e expectativas para essa nova jornada"
 ---
 
 _Oi pessoal, tudo bem com vocês? Nesse post, gostaria de deixar aqui um pouco da minha jornada, a ideia aqui é dar uma
-introdução para os próximos posts. Quero deixar os meus aprendizados técnicos e não técnicos para você e espero que te
+introdução para os próximos posts. Quero deixar os meus aprendizados em forma de dicas para você e espero que te
 ajude de alguma forma_ ❤️
 
 E antes de começar, quero agradecer a Deus e a minha esposa por estar comigo durante todo esse caminho até aqui.
@@ -30,6 +30,10 @@ E daí por diante, virei o estagiário de um grande amigo meu, [**Mauricio Salat
 comecei resolvendo algumas issues de um workshop que se chama [_From Monolith to
 K8S_](https://github.com/salaboy/from-monolith-to-k8s).
 
+### Dica
+> Não tenha medo de perguntar, não tenha medo de errar, não tenha medo de se expor. A comunidade Open Source é
+> feita de pessoas que querem ajudar outras pessoas, se ninguém vir contribuir, como o projeto vai continuar? Só erra quem tenta.
+
 ## Um estagiário generalista
 
 No projeto _From Monolith to K8S_ testei e experimentei diversas tecnologias, KinD, Kubernetes, Tekton, GoLang, Helm,
@@ -46,21 +50,27 @@ Mas o lado mau é que você não cria raiz, não se aperfeiçoa em algo, não ga
 especialista
 em algum assunto.
 
-> **DICA**: Se você quer começar a contribuir num projeto Open Source, não tem problema navegar em diversas ferramentas,
-> , mas não faça isso por muito tempo, foque num nicho específico e em coisas correlatas.
+### Dica
+
+> Se você quer começar a contribuir num projeto Open Source, não tem problema navegar por diversos assuntos/tecnologias,
+> mas não faça isso por muito tempo, foque em um projeto específico e é claro que você goste.
 
 ## O início do estagiário especialista
 
-Se lembra que mencionei que Open Source é também contribuir com a sua presenção?
+Se lembra que mencionei que Open Source é também contribuir com a sua presença?
 
 Em outra live do [SouJava](https://www.youtube.com/watch?v=NxBX7mBkTBA) conheci
 o [Helber Belmiro](https://www.linkedin.com/in/hbelmiro),
 uma referência na comunidade Open Source e Java. Foi nessa live que descobri o
 projeto [quarkiverse/quarkus-openapi-generator](https://github.com/quarkiverse/quarkus-openapi-generator) e,
 por meio desta [issue](https://github.com/quarkiverse/quarkus-openapi-generator/issues/312), comecei a contribuir com o
-projeto. Naquela época eu ainda era um pouco generalista,
-mas foi ali que decidi reduzir o foco e me aprofundar em assuntos mais específicos, nesse caso, o mundo Quarkus (*
-*quarkiverse**).
+projeto. 
+
+Naquela época eu ainda era um pouco generalista, mas foi ali que decidi reduzir o foco e me aprofundar em assuntos mais específicos, nesse caso, o mundo Quarkus (**quarkiverse**).
+
+### Dica
+> Não tenha medo de começar pequeno, comece com pequenas contribuições, pequenas issues, pequenas documentações, o
+> importante é começar.
 
 ## Uma conversa que me abriu a mente
 
@@ -90,6 +100,11 @@ conversa que eu tracei alguns objetivos para o ano de 2024:
 Eu tinha mais um ou dois, mas não me lembro mais 🙂
 
 E foi aí que decidi aprofundar-me e criar raízes em uma tecnologia que estava ecoando no mundo Java.
+
+### Dica
+> Defina objetivos claros e específicos para a sua carreira, isso vai te ajudar a manter o foco e a medir o seu progresso.
+> Procure também mentores que possam te ajudar a traçar esses objetivos e te guiar durante a sua jornada. Vou deixar aqui dois nomes
+> que me ajudaram muito: **Bruno Souza (javaman)**, **Helber Belmiro**, **Pedro Cavalero** e **Elder Moraes**.
 
 ## Quarkus, Quarkus e Quarkus
 
@@ -152,6 +167,10 @@ A dupla George e Matheus ataca novamente: Realizamos um Workshop sobre Quarkus n
 
 É... graças a **Deus** o ano de 2024 realmente foi incrível para mim.
 
+### Dica
+> Compartilhe o que você aprendeu, crie conteúdos, palestras, vídeos, blogs, tutoriais. Isso vai te ajudar a fortalecer
+> o seu conhecimento e você vai se tornar uma autoridade no assunto.
+
 ## Dando continuidade em 2025
 
 Uma coisa muito importante é dar continuidade, é ser resiliente, é ser consistente. Eu confesso que eu tenho 
@@ -181,12 +200,23 @@ Pela primeira vez palestrei em inglês sobre Dapr no [TDC São Paulo de 2025](ht
 
 Foi uma experiência diferente para mim e fui nomeado um [Dapr Meteor](https://dapr.io/community/program/) 🚀, e sinceramente, fiquei muito feliz por isso.
 
+### Dica
+> Dê continuidade, seja resiliente, seja consistente. Não desista no primeiro obstáculo, não desista no primeiro comentário negativo, apenas continue.
+
 ## Próximos passos
 
 Bom, talvez você achou a imagem do Duke um pouco estranha... eu quis resumir um pouco a minha história no mundo Open Source e agora eu tenho um caminho desconhecido pela frente,
 vou trabalhar na IBM, diretamente com Open Source, ser pago para trabalhar nos projetos e com as pessoas que eu já interagido através de pull request, chats no Zulip e issues.
 
 Talvez esse caminho, vai ser potencializar o que já venho feito durante todo esse tempo, eu não sei... As vezes me sinto incapaz, será se vou dar conta? Eu não sei... Só sei de uma coisa, vou 
-me esforçar, me dedicar e quero compartilhar a continuação dessa jornada com vocês.
+me esforçar, me dedicar e quero compartilhar a continuação dessa jornada com vocês. 
+
+## Conclusão 
+
+Se você leu até aqui, muito obrigado! Quero deixar aqui o meu convite para você começar agora, não deixe para depois.
+
+Você pode encontrar uma issue nesse repositório [aqui](https://github.com/mcruzdev/issues-i-can-help-you-with), eu sempre coloco `good first issues` lá, para você começar a contribuir com projetos Open Source.
+
+Até logo e até os próximos posts 👋👋👋!
 
 ![confident.png](confident.png)
