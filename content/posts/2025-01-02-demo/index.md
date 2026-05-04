@@ -32,18 +32,16 @@ Roq is a rock on top of Quarkus:
 - A GitHub Action for automation.
 - Soon: A CMS to manage article and pages from the Quarkus Dev-UI.
 
-In this demo, we will install Quarkus and clone a repository, change a few things to see how it reacts.
+In this demo, we will install the Roq CLI and clone a repository, change a few things to see how it reacts.
 
 
 ## Setup
 
-Make sure you have the JDK 17+ on your machine and install the [Quarkus CLI](https://quarkus.io/guides/cli-tooling) using the command bellow:
+Make sure you have the JDK 21+ on your machine and install the [Roq CLI](https://iamroq.dev/docs/getting-started/) using the command below:
 ```shell
-curl -Ls https://sh.jbang.dev | bash -s - trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/
-curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force quarkus@quarkusio
+curl -Ls https://sh.jbang.dev | bash -s - trust add https://repo1.maven.org/maven2/io/quarkiverse/roq/
+curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force roq@quarkiverse/quarkus-roq
 ```
-
-**NOTE:** We started working on a Quarkus Wrapper to allow starting dev-mode and soon also editor mode without anything to install on the machine.
 
 **TIP:** You can optionally install [Quarkus IDE tooling](https://quarkus.io/guides/ide-tooling) to make the xp even smoother.
 
@@ -79,12 +77,12 @@ the-coder-site/
 └── ...                           # Gitignore, Maven Wrapper
 ```
 
-Let's start Quarkus Dev-Mode:
+Let's start Roq:
 ```shell
-quarkus dev
+roq start
 ```
 
-When Quarkus starts — after the initial download of its dependencies. press `w` on you keyboard and let the magic happen!
+When Roq starts, after the initial download of its dependencies, press `w` on your keyboard and let the magic happen!
 
 I suggest you put your browser on your second screen if you have one, this content is also available in your new [blog](http://localhost:8080/posts/discover-roq-the-quarkus-way-for-static-site-generation-in-java/) (or in `content/posts/2025-01-02-demo.md`)
 
